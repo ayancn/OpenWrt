@@ -1,2 +1,0 @@
-src-git lienol https://github.com/Lienol/openwrt-package.git;main
-src-git other https://github.com/Lienol/openwrt-package.git;other
