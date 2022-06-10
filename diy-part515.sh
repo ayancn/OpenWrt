@@ -16,4 +16,6 @@
 # Add a feed source
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+echo 'src-git lienol https://github.com/Lienol/openwrt-package.git;main' >>feeds.conf.default
+echo 'src-git other https://github.com/Lienol/openwrt-package.git;other' >>feeds.conf.default
 sed -i 's/5.10/5.15/g' target/linux/ramips/Makefile
