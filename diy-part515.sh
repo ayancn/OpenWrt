@@ -20,4 +20,5 @@ echo 'src-git lienol https://github.com/Lienol/openwrt-package.git;main' >>feeds
 echo 'src-git other https://github.com/Lienol/openwrt-package.git;other' >>feeds.conf.default
 echo 'src-git kenzok8 https://github.com/kenzok8/small-package' >>feeds.conf.default
 sed -i 's/5.10/5.15/g' target/linux/ramips/Makefile
+sed -i 's/dnsmasq/dnsmasq-full/g' include/target.mk
 sed -i 's/disabled=1/disabled=0/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
