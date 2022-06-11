@@ -16,5 +16,7 @@
 # Add a feed source
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+svn co https://github.com/coolsnowwolf/luci/trunk/applications/luci-app-turboacc package/coolsnowwolf/luci-app-turboacc
+svn co https://github.com/fw876/helloworld/trunk/master/luci-app-ssr-plus package/helloworld/luci-app-ssr-plus
 sed -i 's/dnsmasq/dnsmasq-full/g' include/target.mk
 sed -i 's/disabled=1/disabled=0/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
