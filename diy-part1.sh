@@ -19,6 +19,7 @@ echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.defau
 svn co https://github.com/immortalwrt/packages/trunk/net/dns2socks package/immortalwrt/dns2socks
 svn co https://github.com/immortalwrt/packages/trunk/net/microsocks package/immortalwrt/microsocks
 svn co https://github.com/immortalwrt/packages/trunk/net/ipt2socks package/immortalwrt/ipt2socks
+svn co https://github.com/immortalwrt/packages/trunk/net/pdnsd-alt package/immortalwrt/pdnsd-alt
 svn co https://github.com/immortalwrt/packages/trunk/net/redsocks2 package/immortalwrt/redsocks2
 sed -i 's/dnsmasq/dnsmasq-full/g' include/target.mk
 sed -i 's/disabled=1/disabled=0/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
