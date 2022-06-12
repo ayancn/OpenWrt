@@ -22,6 +22,6 @@ svn co https://github.com/immortalwrt/packages/trunk/net/ipt2socks package/immor
 svn co https://github.com/immortalwrt/packages/trunk/net/pdnsd-alt package/immortalwrt/pdnsd-alt
 svn co https://github.com/immortalwrt/packages/trunk/net/redsocks2 package/immortalwrt/redsocks2
 git clone https://github.com/jerrykuku/luci-theme-argon package/jerrykuku/luci-theme-argon
-svn co https://github.com/coolsnowwolf/luci/trunk/applications/luci-app-turboacc package/coolsnowwolf/luci-app-turboacc
+svn co https://github.com/Lienol/openwrt-package/trunk/lean/luci-app-turboacc package/Lienol/luci-app-turboacc
 sed -i 's/dnsmasq/dnsmasq-full/g' include/target.mk
 sed -i 's/disabled=1/disabled=0/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
