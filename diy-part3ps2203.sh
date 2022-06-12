@@ -19,6 +19,7 @@ echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.defau
 svn co https://github.com/immortalwrt/packages/trunk/net/dns2socks package/immortalwrt/dns2socks
 svn co https://github.com/immortalwrt/packages/trunk/net/microsocks package/immortalwrt/microsocks
 svn co https://github.com/immortalwrt/packages/trunk/net/ipt2socks package/immortalwrt/ipt2socks
+svn co https://github.com/immortalwrt/packages/trunk/net/pdnsd-alt package/immortalwrt/pdnsd-alt
 svn co https://github.com/immortalwrt/packages/trunk/net/redsocks2 package/immortalwrt/redsocks2
 git clone https://github.com/jerrykuku/luci-theme-argon package/jerrykuku/luci-theme-argon
 svn co https://github.com/linkease/istore/trunk/luci/luci-app-store package/istore/luci-app-store
