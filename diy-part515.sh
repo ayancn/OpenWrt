@@ -20,6 +20,7 @@ svn co https://github.com/immortalwrt/packages/trunk/net/dns2socks package/immor
 svn co https://github.com/immortalwrt/packages/trunk/net/microsocks package/immortalwrt/microsocks
 svn co https://github.com/immortalwrt/packages/trunk/net/ipt2socks package/immortalwrt/ipt2socks
 svn co https://github.com/immortalwrt/packages/trunk/net/redsocks2 package/immortalwrt/redsocks2
+git clone https://github.com/jerrykuku/luci-theme-argon package/jerrykuku/luci-theme-argon
 sed -i 's/5.10/5.15/g' target/linux/ramips/Makefile
 sed -i 's/dnsmasq/dnsmasq-full/g' include/target.mk
 sed -i 's/disabled=1/disabled=0/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
