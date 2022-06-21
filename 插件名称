@@ -21,6 +21,7 @@ CONFIG_PACKAGE_luci-app-firewall=            防火墙
 CONFIG_PACKAGE_luci-app-turboacc=y           Turbo ACC 网络加速
 
 可选
+CONFIG_TESTING_KERNEL=y                      测试新内核
 CONFIG_PACKAGE_luci-app-ssr-plus=            ShadowSocksR Plus+
 CONFIG_PACKAGE_luci-app-easymesh=            简单mesh
 CONFIG_PACKAGE_luci-app-uugamebooster=       UU游戏加速器
