@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: CR6608 5.10 OpenWrt-22.03
+name: CR6608 5.10 MT OP-22.03
 
 on:
   repository_dispatch:
