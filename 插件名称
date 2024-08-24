@@ -1,0 +1,41 @@
+编译配置插件
+添加
+CONFIG_PACKAGE_dnsmasq_full_dhcpv6=y         支持IPV6 DHCP服务器
+CONFIG_PACKAGE_ipv6helper=y                  支持IPV6网络
+CONFIG_PACKAGE_luci-theme-argon=y            argon主题
+
+自带可选
+CONFIG_PACKAGE_luci-app-autoreboot=n         计划重启
+CONFIG_PACKAGE_luci-app-wol=n                网络唤醒
+CONFIG_PACKAGE_luci-app-vlmcsd=n             KMS服务器
+CONFIG_PACKAGE_luci-app-accesscontrol=n      上网时间控制
+CONFIG_PACKAGE_luci-app-arpbind=n            IP/MAC绑定
+CONFIG_PACKAGE_luci-app-vsftpd=n             FTP服务器
+CONFIG_PACKAGE_luci-app-nlbwmon=n            带宽监控
+
+自带
+CONFIG_PACKAGE_luci-app-ddns=                动态DNS
+CONFIG_PACKAGE_luci-app-upnp=                Upnp
+CONFIG_PACKAGE_luci-app-filetransfer=        文件传输
+CONFIG_PACKAGE_luci-app-firewall=            防火墙
+CONFIG_PACKAGE_luci-app-turboacc=y           Turbo ACC 网络加速
+
+可选
+CONFIG_TESTING_KERNEL=y                      测试新内核
+CONFIG_PACKAGE_luci-app-ssr-plus=            ShadowSocksR Plus+
+CONFIG_PACKAGE_luci-app-easymesh=            简单mesh
+CONFIG_PACKAGE_luci-app-uugamebooster=       UU游戏加速器
+CONFIG_PACKAGE_luci-app-unblockmusic=        网易云解锁灰色
+CONFIG_PACKAGE_luci-app-ramfree=             释放内存
+CONFIG_PACKAGE_luci-app-store=               应用商店
+CONFIG_LUCI_LANG_zh_Hans=y                   中文
+CONFIG_PACKAGE_luci                          界面
+CONFIG_PACKAGE_luci-compat=y                 界面
+MT闭源WIFI驱动
+CONFIG_PACKAGE_mt_wifi=y
+CONFIG_PACKAGE_kmod-mt7615d=y
+CONFIG_PACKAGE_luci-app-mtwifi=y
+
+5.15内核换6.6
+sed -i 's/5.15/6.6/g' target/linux/ramips/Makefile
+
