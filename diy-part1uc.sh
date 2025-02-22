@@ -18,4 +18,4 @@ echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.defau
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 git clone https://github.com/jerrykuku/luci-theme-argon package/jerrykuku/luci-theme-argon
 sed -i 's/dnsmasq/dnsmasq-full/g' include/target.mk
-#sed -i 's/disabled=/disabled=0/g' package/network/config/wifi-scripts/files/lib/wifi/mac80211.uc
+sed -i 's/disabled=/disabled=0/g' package/network/config/wifi-scripts/files/lib/wifi/mac80211.uc
