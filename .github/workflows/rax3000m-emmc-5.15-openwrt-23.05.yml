@@ -10,7 +10,7 @@
 # See /LICENSE for more information.
 #
 
-name: RAX3000m-EMMC 5.15 Openwrt-23.05
+name: RAX3000M-EMMC 5.15 Openwrt-23.05
 
 on:
   repository_dispatch:
