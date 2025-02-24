@@ -10,7 +10,7 @@
 # See /LICENSE for more information.
 #
 
-name: RAX3000M-EMMC 6.6 openwrt-24.10
+name: RAX3000M 6.6 openwrt-24.10
 
 on:
   repository_dispatch:
@@ -20,7 +20,7 @@ env:
   REPO_URL: https://github.com/openwrt/openwrt
   REPO_BRANCH: openwrt-24.10
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: rax3000m-emmc.config
+  CONFIG_FILE: rax3000m.config
   DIY_P1_SH: diy-part1uc.sh
   DIY_P2_SH: diy-part2.sh
   UPLOAD_BIN_DIR: false
